@@ -25,12 +25,22 @@ console.log(newArr);
 */
 
 
-// slice, splice
+// slice - Does not change the original array.
+//         Returns a shallow copy of a portion of the array.
+
+// splice - Changes the original array.
+//        - Can be used to add, remove, or replace elements.
+
+/*
 console.log("A" ,myArray);
 const myn1 = myArray.slice(1,3)
 console.log(myn1);
 console.log("B",myArray);  
 
+const myn2 = myArray.splice(1,3)
+console.log("c",myArray);
+console.log(myn2);
+*/
 
 
 
