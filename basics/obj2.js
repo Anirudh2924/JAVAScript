@@ -43,8 +43,25 @@ const users = [
         email: "c@gmail.com"
     }
 ]
-
+/*
 console.log(users[1].email);
 console.log(something);
 console.log(Object.keys(something));
 console.log(Object.values(something));
+*/
+const course = {
+    coursename : "js",
+    price: "999",
+    courseInstructor: "Ani"
+}
+
+//course.courseInstructor
+const {courseInstructor : inst} = course 
+//console.log(inst);
+
+const navbar = ({company}) => {
+
+}
+navbar(company = "ani")
+
+
