@@ -8,7 +8,7 @@ const mySmb = Symbol("k1")
 const user = {
     name: "Ani",
     age:19,
-    [mySmb] :"mybby", //correct syntax to add key to objects
+    [mySmb] :"mybby", //correct syntax to add symbol key to objects
     location: "jdp",
     email: "abc@gmail.com",
     isLoggedIn: false,
